@@ -1,0 +1,181 @@
+.heading {
+font-size: 23px;
+width:100%;
+margin: 0px;
+box-shadow:5px 5px 5px grey;
+animation-name: rainbow;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+.note {
+
+    font-size: 15px;
+    color:black;
+}
+
+.copy_right_footer {
+position: fixed;
+color: white;
+bottom: 0;
+width: 100%;
+background-color:grey;
+line-height:3;
+text-align: center;
+font-size:15px;
+text-shadow: 3px 3px 5px black;
+}
+
+canvas{
+    border:5px solid white;
+border-radius: 20px;
+box-shadow:5px 5px 5px grey;
+animation-name: example;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+
+.copy_right_footer:hover {
+    background-image: linear-gradient(to right top, #67D4FE, #6012CD, #85F0C4, #5DDB9F);
+    animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  text-shadow:
+  0 0 7px pink,
+  0 0 10px magenta,
+  0 0 21px #fff,
+  0 0 42px hotpink,
+  0 0 82px fuchsia,
+  0 0 92px black,
+  0 0 102px gold,
+  0 0 151px yellow;
+
+
+  animation-name: text;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+
+}
+  
+
+
+    @keyframes rainbow {
+        0% {
+            box-shadow: 1px 1px 50px lightgreen;
+        }
+      
+        12.5% {
+            box-shadow: 1px 1px 150px magenta;
+        }
+      
+        25% {
+            box-shadow: 1px 1px 50px yellow;
+        }
+      
+        37.5% {
+            box-shadow: 1px 1px 150px rgb(0, 255, 0);
+        }
+      
+        50% {
+            box-shadow: 1px 1px 50px rgb(0, 255, 255);
+        }
+      
+        62.5% {
+            box-shadow: 1px 1px 150px royalblue;
+        }
+      
+        75% {
+            box-shadow: 1px 1px 150px purple;
+        }
+      
+        80% {
+            box-shadow: 1px 1px 50px rgb(255, 0, 255);
+        }
+        90% {
+            box-shadow: 1px 1px 50px powderblue;
+        }
+      
+        100% {
+            box-shadow: 1px 1px 50px red;
+        }
+      }
+
+
+@keyframes example {
+    0% {
+        box-shadow: 1px 1px 150px red;
+    }
+  
+    12.5% {
+        box-shadow: 1px 1px 150px orange;
+    }
+  
+    25% {
+        box-shadow: 1px 1px 50px yellow;
+    }
+  
+    37.5% {
+        box-shadow: 1px 1px 150px rgb(0, 255, 0);
+    }
+  
+    50% {
+        box-shadow: 1px 1px 50px rgb(0, 255, 255);
+    }
+  
+    62.5% {
+        box-shadow: 1px 1px 150px blue;
+    }
+  
+    75% {
+        box-shadow: 1px 1px 150px purple;
+    }
+  
+    87.5% {
+        box-shadow: 1px 1px 50px rgb(255, 0, 255);
+    }
+  
+    100% {
+        box-shadow: 1px 1px 50px red;
+    }
+  }
+
+
+  @keyframes text {
+    0% {
+        text-shadow: 1px 1px 50px lightgreen;
+    }
+  
+    12.5% {
+        text-shadow: 1px 1px 150px magenta;
+    }
+  
+    25% {
+        text-shadow: 1px 1px 50px yellow;
+    }
+  
+    37.5% {
+        text-shadow: 1px 1px 150px rgb(0, 255, 0);
+    }
+  
+    50% {
+        text-shadow: 1px 1px 50px black;
+    }
+  
+    62.5% {
+        text-shadow: 1px 1px 150px gold;
+    }
+  
+    75% {
+        text-shadow: 1px 1px 150px yellow;
+    }
+  
+    80% {
+        text-shadow: 1px 1px 50px rgb(255, 0, 255);
+    }
+    90% {
+        text-shadow: 1px 1px 50px powderblue;
+    }
+  
+    100% {
+        text-shadow: 1px 1px 50px red;
+    }
+  }
